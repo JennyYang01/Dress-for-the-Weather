@@ -7,46 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		170E65AB21DDA8850038815C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E65AA21DDA8850038815C /* AppDelegate.swift */; };
-		170E65AD21DDA8850038815C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E65AC21DDA8850038815C /* ViewController.swift */; };
-		170E65B021DDA8850038815C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170E65AE21DDA8850038815C /* Main.storyboard */; };
-		170E65B221DDA8860038815C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170E65B121DDA8860038815C /* Assets.xcassets */; };
-		170E65B521DDA8860038815C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170E65B321DDA8860038815C /* LaunchScreen.storyboard */; };
-		170E65C021DDA8870038815C /* Dress_for_the_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E65BF21DDA8870038815C /* Dress_for_the_WeatherTests.swift */; };
+		170E65E121E050700038815C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E65E021E050700038815C /* AppDelegate.swift */; };
+		170E65E321E050700038815C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E65E221E050700038815C /* ViewController.swift */; };
+		170E65E621E050700038815C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170E65E421E050700038815C /* Main.storyboard */; };
+		170E65E821E050720038815C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170E65E721E050720038815C /* Assets.xcassets */; };
+		170E65EB21E050720038815C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170E65E921E050720038815C /* LaunchScreen.storyboard */; };
+		170E65F621E050720038815C /* SmartDress in Sources */ = {isa = PBXBuildFile; fileRef = 170E65F521E050720038815C /* SmartDress */; };
+		170E660121E07B950038815C /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E660021E07B950038815C /* LoginScreen.swift */; };
+		1739DD0E21E1AC1700B204F9 /* MainTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1739DD0D21E1AC1700B204F9 /* MainTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		170E65BC21DDA8870038815C /* PBXContainerItemProxy */ = {
+		170E65F221E050720038815C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 170E659F21DDA8850038815C /* Project object */;
+			containerPortal = 170E65D521E050700038815C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 170E65A621DDA8850038815C;
+			remoteGlobalIDString = 170E65DC21E050700038815C;
 			remoteInfo = "Dress for the Weather";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		170E65A721DDA8850038815C /* Dress for the Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dress for the Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		170E65AA21DDA8850038815C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		170E65AC21DDA8850038815C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		170E65AF21DDA8850038815C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		170E65B121DDA8860038815C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		170E65B421DDA8860038815C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		170E65B621DDA8860038815C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		170E65BB21DDA8870038815C /* Dress for the WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dress for the WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		170E65BF21DDA8870038815C /* Dress_for_the_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dress_for_the_WeatherTests.swift; sourceTree = "<group>"; };
-		170E65C121DDA8870038815C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170E65DD21E050700038815C /* Dress for the Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dress for the Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170E65E021E050700038815C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		170E65E221E050700038815C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		170E65E521E050700038815C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		170E65E721E050720038815C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		170E65EA21E050720038815C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		170E65EC21E050720038815C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170E65F121E050720038815C /* Dress for the WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dress for the WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170E65F521E050720038815C /* SmartDress */ = {isa = PBXFileReference; lastKnownFileType = text; path = SmartDress; sourceTree = "<group>"; };
+		170E65F721E050720038815C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170E660021E07B950038815C /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		1739DD0D21E1AC1700B204F9 /* MainTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		170E65A421DDA8850038815C /* Frameworks */ = {
+		170E65DA21E050700038815C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		170E65B821DDA8870038815C /* Frameworks */ = {
+		170E65EE21E050720038815C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,56 +60,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		170E659E21DDA8850038815C = {
+		170E65D421E050700038815C = {
 			isa = PBXGroup;
 			children = (
-				170E65A921DDA8850038815C /* Dress for the Weather */,
-				170E65BE21DDA8870038815C /* Dress for the WeatherTests */,
-				170E65A821DDA8850038815C /* Products */,
+				170E65DF21E050700038815C /* Dress for the Weather */,
+				170E65F421E050720038815C /* DressfortheWeather Tests */,
+				170E65DE21E050700038815C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		170E65A821DDA8850038815C /* Products */ = {
+		170E65DE21E050700038815C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				170E65A721DDA8850038815C /* Dress for the Weather.app */,
-				170E65BB21DDA8870038815C /* Dress for the WeatherTests.xctest */,
+				170E65DD21E050700038815C /* Dress for the Weather.app */,
+				170E65F121E050720038815C /* Dress for the WeatherTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		170E65A921DDA8850038815C /* Dress for the Weather */ = {
+		170E65DF21E050700038815C /* Dress for the Weather */ = {
 			isa = PBXGroup;
 			children = (
-				170E65AA21DDA8850038815C /* AppDelegate.swift */,
-				170E65AC21DDA8850038815C /* ViewController.swift */,
-				170E65AE21DDA8850038815C /* Main.storyboard */,
-				170E65B121DDA8860038815C /* Assets.xcassets */,
-				170E65B321DDA8860038815C /* LaunchScreen.storyboard */,
-				170E65B621DDA8860038815C /* Info.plist */,
+				1739DD0D21E1AC1700B204F9 /* MainTable.swift */,
+				170E65E021E050700038815C /* AppDelegate.swift */,
+				170E65E221E050700038815C /* ViewController.swift */,
+				170E660021E07B950038815C /* LoginScreen.swift */,
+				170E65E421E050700038815C /* Main.storyboard */,
+				170E65E721E050720038815C /* Assets.xcassets */,
+				170E65E921E050720038815C /* LaunchScreen.storyboard */,
+				170E65EC21E050720038815C /* Info.plist */,
 			);
 			path = "Dress for the Weather";
 			sourceTree = "<group>";
 		};
-		170E65BE21DDA8870038815C /* Dress for the WeatherTests */ = {
+		170E65F421E050720038815C /* DressfortheWeather Tests */ = {
 			isa = PBXGroup;
 			children = (
-				170E65BF21DDA8870038815C /* Dress_for_the_WeatherTests.swift */,
-				170E65C121DDA8870038815C /* Info.plist */,
+				170E65F521E050720038815C /* SmartDress */,
+				170E65F721E050720038815C /* Info.plist */,
 			);
-			path = "Dress for the WeatherTests";
+			path = "DressfortheWeather Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		170E65A621DDA8850038815C /* Dress for the Weather */ = {
+		170E65DC21E050700038815C /* Dress for the Weather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 170E65C421DDA8870038815C /* Build configuration list for PBXNativeTarget "Dress for the Weather" */;
+			buildConfigurationList = 170E65FA21E050720038815C /* Build configuration list for PBXNativeTarget "Dress for the Weather" */;
 			buildPhases = (
-				170E65A321DDA8850038815C /* Sources */,
-				170E65A421DDA8850038815C /* Frameworks */,
-				170E65A521DDA8850038815C /* Resources */,
+				170E65D921E050700038815C /* Sources */,
+				170E65DA21E050700038815C /* Frameworks */,
+				170E65DB21E050700038815C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,47 +119,47 @@
 			);
 			name = "Dress for the Weather";
 			productName = "Dress for the Weather";
-			productReference = 170E65A721DDA8850038815C /* Dress for the Weather.app */;
+			productReference = 170E65DD21E050700038815C /* Dress for the Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
-		170E65BA21DDA8870038815C /* Dress for the WeatherTests */ = {
+		170E65F021E050720038815C /* Dress for the WeatherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 170E65C721DDA8870038815C /* Build configuration list for PBXNativeTarget "Dress for the WeatherTests" */;
+			buildConfigurationList = 170E65FD21E050720038815C /* Build configuration list for PBXNativeTarget "Dress for the WeatherTests" */;
 			buildPhases = (
-				170E65B721DDA8870038815C /* Sources */,
-				170E65B821DDA8870038815C /* Frameworks */,
-				170E65B921DDA8870038815C /* Resources */,
+				170E65ED21E050720038815C /* Sources */,
+				170E65EE21E050720038815C /* Frameworks */,
+				170E65EF21E050720038815C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				170E65BD21DDA8870038815C /* PBXTargetDependency */,
+				170E65F321E050720038815C /* PBXTargetDependency */,
 			);
 			name = "Dress for the WeatherTests";
 			productName = "Dress for the WeatherTests";
-			productReference = 170E65BB21DDA8870038815C /* Dress for the WeatherTests.xctest */;
+			productReference = 170E65F121E050720038815C /* Dress for the WeatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		170E659F21DDA8850038815C /* Project object */ = {
+		170E65D521E050700038815C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = Leapteks;
+				ORGANIZATIONNAME = "Jenny Yang";
 				TargetAttributes = {
-					170E65A621DDA8850038815C = {
+					170E65DC21E050700038815C = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					170E65BA21DDA8870038815C = {
+					170E65F021E050720038815C = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 170E65A621DDA8850038815C;
+						TestTargetID = 170E65DC21E050700038815C;
 					};
 				};
 			};
-			buildConfigurationList = 170E65A221DDA8850038815C /* Build configuration list for PBXProject "Dress for the Weather" */;
+			buildConfigurationList = 170E65D821E050700038815C /* Build configuration list for PBXProject "Dress for the Weather" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,29 +167,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 170E659E21DDA8850038815C;
-			productRefGroup = 170E65A821DDA8850038815C /* Products */;
+			mainGroup = 170E65D421E050700038815C;
+			productRefGroup = 170E65DE21E050700038815C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				170E65A621DDA8850038815C /* Dress for the Weather */,
-				170E65BA21DDA8870038815C /* Dress for the WeatherTests */,
+				170E65DC21E050700038815C /* Dress for the Weather */,
+				170E65F021E050720038815C /* Dress for the WeatherTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		170E65A521DDA8850038815C /* Resources */ = {
+		170E65DB21E050700038815C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170E65B521DDA8860038815C /* LaunchScreen.storyboard in Resources */,
-				170E65B221DDA8860038815C /* Assets.xcassets in Resources */,
-				170E65B021DDA8850038815C /* Main.storyboard in Resources */,
+				170E65EB21E050720038815C /* LaunchScreen.storyboard in Resources */,
+				170E65E821E050720038815C /* Assets.xcassets in Resources */,
+				170E65E621E050700038815C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		170E65B921DDA8870038815C /* Resources */ = {
+		170E65EF21E050720038815C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,46 +199,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		170E65A321DDA8850038815C /* Sources */ = {
+		170E65D921E050700038815C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170E65AD21DDA8850038815C /* ViewController.swift in Sources */,
-				170E65AB21DDA8850038815C /* AppDelegate.swift in Sources */,
+				170E65E321E050700038815C /* ViewController.swift in Sources */,
+				170E65E121E050700038815C /* AppDelegate.swift in Sources */,
+				170E660121E07B950038815C /* LoginScreen.swift in Sources */,
+				1739DD0E21E1AC1700B204F9 /* MainTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		170E65B721DDA8870038815C /* Sources */ = {
+		170E65ED21E050720038815C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170E65C021DDA8870038815C /* Dress_for_the_WeatherTests.swift in Sources */,
+				170E65F621E050720038815C /* SmartDress in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		170E65BD21DDA8870038815C /* PBXTargetDependency */ = {
+		170E65F321E050720038815C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 170E65A621DDA8850038815C /* Dress for the Weather */;
-			targetProxy = 170E65BC21DDA8870038815C /* PBXContainerItemProxy */;
+			target = 170E65DC21E050700038815C /* Dress for the Weather */;
+			targetProxy = 170E65F221E050720038815C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		170E65AE21DDA8850038815C /* Main.storyboard */ = {
+		170E65E421E050700038815C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				170E65AF21DDA8850038815C /* Base */,
+				170E65E521E050700038815C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		170E65B321DDA8860038815C /* LaunchScreen.storyboard */ = {
+		170E65E921E050720038815C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				170E65B421DDA8860038815C /* Base */,
+				170E65EA21E050720038815C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -240,7 +248,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		170E65C221DDA8870038815C /* Debug */ = {
+		170E65F821E050720038815C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		170E65C321DDA8870038815C /* Release */ = {
+		170E65F921E050720038815C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -356,41 +364,43 @@
 			};
 			name = Release;
 		};
-		170E65C521DDA8870038815C /* Debug */ = {
+		170E65FB21E050720038815C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Dress for the Weather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leapteks.Dress-for-the-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jenny-Yang.SmartDress";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		170E65C621DDA8870038815C /* Release */ = {
+		170E65FC21E050720038815C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Dress for the Weather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leapteks.Dress-for-the-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jenny-Yang.SmartDress";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		170E65C821DDA8870038815C /* Debug */ = {
+		170E65FE21E050720038815C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -402,7 +412,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leapteks.Dress-for-the-WeatherTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jenny-Yang.Dress-for-the-WeatherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -410,7 +420,7 @@
 			};
 			name = Debug;
 		};
-		170E65C921DDA8870038815C /* Release */ = {
+		170E65FF21E050720038815C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -422,7 +432,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leapteks.Dress-for-the-WeatherTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jenny-Yang.Dress-for-the-WeatherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -433,34 +443,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		170E65A221DDA8850038815C /* Build configuration list for PBXProject "Dress for the Weather" */ = {
+		170E65D821E050700038815C /* Build configuration list for PBXProject "Dress for the Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				170E65C221DDA8870038815C /* Debug */,
-				170E65C321DDA8870038815C /* Release */,
+				170E65F821E050720038815C /* Debug */,
+				170E65F921E050720038815C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		170E65C421DDA8870038815C /* Build configuration list for PBXNativeTarget "Dress for the Weather" */ = {
+		170E65FA21E050720038815C /* Build configuration list for PBXNativeTarget "Dress for the Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				170E65C521DDA8870038815C /* Debug */,
-				170E65C621DDA8870038815C /* Release */,
+				170E65FB21E050720038815C /* Debug */,
+				170E65FC21E050720038815C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		170E65C721DDA8870038815C /* Build configuration list for PBXNativeTarget "Dress for the WeatherTests" */ = {
+		170E65FD21E050720038815C /* Build configuration list for PBXNativeTarget "Dress for the WeatherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				170E65C821DDA8870038815C /* Debug */,
-				170E65C921DDA8870038815C /* Release */,
+				170E65FE21E050720038815C /* Debug */,
+				170E65FF21E050720038815C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 170E659F21DDA8850038815C /* Project object */;
+	rootObject = 170E65D521E050700038815C /* Project object */;
 }
